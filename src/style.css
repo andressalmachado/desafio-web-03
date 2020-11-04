@@ -1,7 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 /* Seu código css aqui */
+body {
+  background: #0f0f0f;
+}
+
+.limite {
+  width: 860px;
+  margin: 0 auto;
+}
+
+.horizontal {
+  display: flex;
+}
+
+header {
+  background: #181818;
+}
+
+.conteudo .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 20px 0 0 0;
+}
+
+.conteudo .titulo {
+  color: aqua;
+  padding: 20px;
+  display: flex;
+}
+
+.conteudo .links {
+  background: #aaaaaa;
+}
+
+.destaque {
+  display: flex;
+}
+
+.destaque .info {
+  margin: 0 0 0 24px;
+}
+
+.destaque .info h3 {
+  font: 14px "Roboto", sans-serif;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.destaque .info span {
+  display: block;
+  font: 13px "Roboto", sans-serif;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.destaque .info p {
+  font: 14px/24px "Roboto", sans-serif;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.destaque a {
+  font: 13px "Roboto", sans-serif;
+  color: #aaa;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.destaque a:hover {
+  color: #fff;
+}
