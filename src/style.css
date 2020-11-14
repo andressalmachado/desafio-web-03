@@ -20,22 +20,34 @@ body {
 
 header {
   background: #181818;
+  padding: 24px;
+  margin-bottom: 40px;
 }
 
-.conteudo .avatar {
+header .avatar {
   width: 80px;
   height: 80px;
   border-radius: 40px;
-  margin: 20px 0 0 0;
+  margin: 0 14px 0 0;
 }
 
-.conteudo .titulo {
-  color: aqua;
+header .titulo {
+  font: 24px "Roboto", sans-serif;
+  color: #fff;
   padding: 20px;
-  display: flex;
 }
 
-.conteudo .links {
+header .certificado {
+  height: 16px;
+  width: 16px;
+}
+
+header span {
+  font: 14px "Roboto", sans-serif;
+  color: #aaa;
+}
+
+header .links {
   background: #aaaaaa;
 }
 
