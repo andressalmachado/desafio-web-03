@@ -19,9 +19,9 @@ body {
   align-items: center;
 }
 
-.header-canal{
+.header-canal {
   justify-content: space-between;
-  margin-bottom: 36px;;
+  margin-bottom: 36px;
 }
 
 .topo {
@@ -37,7 +37,7 @@ section .avatar {
   margin: 0 24px 0 0;
 }
 
-section .titulo h1{
+section .titulo h1 {
   font: 24px "Roboto", sans-serif;
   color: #fff;
 }
@@ -56,11 +56,11 @@ section span {
 section .botao-membro {
   font: 14px "Roboto", sans-serif;
   text-transform: uppercase;
-color: #3ea6ff;
-border: 1px solid #3ea6ff;
-border-radius: 4px;
-padding: 8px 16px;
-margin-right: 8px;
+  color: #3ea6ff;
+  border: 1px solid #3ea6ff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 8px;
 }
 
 section .botao-inscrever {
@@ -77,10 +77,10 @@ nav a {
   color: #fff;
   margin-right: 20px;
 }
+
 .destaque {
   align-items: flex-start;
 }
-
 
 .destaque {
   display: flex;
