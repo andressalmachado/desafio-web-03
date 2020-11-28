@@ -53,7 +53,7 @@ section span {
   color: #aaa;
 }
 
-section .botao-membro{
+section .botao-membro {
   font: 14px "Roboto", sans-serif;
   text-transform: uppercase;
 color: #3ea6ff;
@@ -63,7 +63,7 @@ padding: 8px 16px;
 margin-right: 8px;
 }
 
-section .botao-inscrever{
+section .botao-inscrever {
   font: 14px "Roboto", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -72,12 +72,12 @@ section .botao-inscrever{
   padding: 8px 16px;
 }
 
-nav a{
+nav a {
   font: 14px "Roboto", sans-serif;
   color: #fff;
   margin-right: 20px;
 }
-.destaque{
+.destaque {
   align-items: flex-start;
 }
 
