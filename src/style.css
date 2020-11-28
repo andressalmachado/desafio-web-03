@@ -16,40 +16,71 @@ body {
 
 .horizontal {
   display: flex;
+  align-items: center;
 }
 
-header {
+.header-canal{
+  justify-content: space-between;
+  margin-bottom: 36px;;
+}
+
+.topo {
   background: #181818;
   padding: 24px;
   margin-bottom: 40px;
 }
 
-header .avatar {
+section .avatar {
   width: 80px;
   height: 80px;
   border-radius: 40px;
-  margin: 0 14px 0 0;
+  margin: 0 24px 0 0;
 }
 
-header .titulo {
+section .titulo h1{
   font: 24px "Roboto", sans-serif;
   color: #fff;
-  padding: 20px;
 }
 
-header .certificado {
+section .certificado {
   height: 16px;
   width: 16px;
+  margin-left: 10px;
 }
 
-header span {
+section span {
   font: 14px "Roboto", sans-serif;
   color: #aaa;
 }
 
-header .links {
-  background: #aaaaaa;
+section .botao-membro{
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+color: #3ea6ff;
+border: 1px solid #3ea6ff;
+border-radius: 4px;
+padding: 8px 16px;
+margin-right: 8px;
 }
+
+section .botao-inscrever{
+  font: 14px "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #c00;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+nav a{
+  font: 14px "Roboto", sans-serif;
+  color: #fff;
+  margin-right: 20px;
+}
+.destaque{
+  align-items: flex-start;
+}
+
 
 .destaque {
   display: flex;
